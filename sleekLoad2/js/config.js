@@ -21,26 +21,6 @@ var l_bgVideo = false;
 
 /*Video background
 Avaiable options:
-"backgrounds/videos/aurora.webm"
-"backgrounds/videos/bluefall.webm"
-"backgrounds/videos/bluetilefloor.webm"
-"backgrounds/videos/bluewhitecircles.webm"
-"backgrounds/videos/bokehlens.webm"
-"backgrounds/videos/cleanbokeh.webm"
-"backgrounds/videos/coldnight.webm"
-"backgrounds/videos/colorfulburst.webm"
-"backgrounds/videos/dancingstars.webm"
-"backgrounds/videos/dropsflares.webm"
-"backgrounds/videos/focusorangebokeh.webm"
-"backgrounds/videos/glimmering.webm"
-"backgrounds/videos/glowingrings.webm"
-"backgrounds/videos/greencircles.webm"
-"backgrounds/videos/hues.webm"
-"backgrounds/videos/inthedeep.webm"
-"backgrounds/videos/modernflourish.webm"
-"backgrounds/videos/orangeaura.webm"
-"backgrounds/videos/warminside.webm"
-"backgrounds/videos/yellowgreen.webm"
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
@@ -50,9 +30,17 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+	"background/images/04GBQoO",
+	"backgrounds/images/53e50bb3741df52fa0ac12d92ba5888a-1",
+	"backgrounds/images/212thAttackBattalion",
+	"backgrounds/images/Aayla_Secura_Order_66",
+	"backgrounds/images/BravoSquad-CC",
+	"backgrounds/images/commando_droids_4c52e273",
+	"backgrounds/images/High_Council_Chamber",
+	"backgrounds/images/maxresdefault",
+	"backgrounds/images/Rex501stUmbara",
+	"backgrounds/images/Thorn",
+	"backgrounds/images/Wolfpack_Aleen",
 ];
 
 /*Random background images order?*/
@@ -85,10 +73,10 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
-	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
-	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
-	{youtube: "-7VeTkLKdDw", name: "Departure"}
+	{youtube: "d8_mS34zM1Y", name: "The Grand Army of the Republic March"},
+	{youtube: "OBCrkHmMr9c", name: "The Clones - Star Wars: The Clone Wars Soundtrack"},
+	{youtube: "ZTg6hg1miFg", name: "Duel Of The Fates"},
+	{youtube: "BjDaPOWdx6s", name: "Throne Room Theme "},
 ];
 
 /*Random music order?*/
@@ -105,7 +93,7 @@ var l_messagesEnabled = true;
 var l_messages = [
 "Enjoy the server",
 "Thanks for joining us!",
-"Did you know these backgrounds and songs are from Touhou?"
+"Ready to join the Galactic Republic?"
 ];
 
 /*Random message order?*/
